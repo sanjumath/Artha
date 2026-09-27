@@ -1,0 +1,103 @@
+body{
+  margin: 0;
+  background: #ffffff;
+  color: #111;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background: darkblue;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+header h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+/* NAV */
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.15);
+}
+
+nav a:hover {
+  background: rgba(255,255,255,0.25);
+}
+
+.content{
+  text-align: center;
+  padding: 15px;
+}
+
+.context{
+  padding: 15px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+/* LINK TITLE */
+.url{
+  text-decoration: none;
+  color: darkblue;
+}
+
+/* CHAPTER BOX */
+.ch{
+  background: darkblue;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+/* CHAPTER LINKS */
+.churl{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 5px 0;
+}
+
+.churl:hover{
+  text-decoration: underline;
+}
+
+/* PDF VIEWER */
+.np{
+  width: 100%;
+  height: 600px;
+  margin: 0;
+  border: none;
+}
+
+/* FOOTER */
+footer{
+  text-align: center;
+  padding: 10px;
+  background: black;
+  color: white;
+}
