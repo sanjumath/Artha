@@ -60,41 +60,46 @@ nav a:hover {
   line-height: 1.8;
 }
 
-/* LINK TITLE */
-.url{
-  text-decoration: none;
-  color: darkblue;
+details{
+  line-height: 1.8;
+  padding: 5px 0px;
 }
 
-/* CHAPTER BOX */
+details summary{
+  font-size: 18.72px;
+}
+
 .ch{
   background: darkblue;
   border-radius: 10px;
   padding: 10px 15px;
-  margin-bottom: 15px;
+  margin: 15px 0px;
 }
 
-/* CHAPTER LINKS */
-.churl{
+.ch b{
   text-decoration: none;
   color: white;
   display: block;
   padding: 5px 0;
 }
 
-.churl:hover{
+.ch div{
+  padding: 0px 10px;
+}
+
+.ch div a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  display: block;
+  word-spacing: 5px;
+}
+
+.ch a:hover{
   text-decoration: underline;
+
 }
 
-/* PDF VIEWER */
-.np{
-  width: 100%;
-  height: 600px;
-  margin: 0;
-  border: none;
-}
-
-/* FOOTER */
 footer{
   text-align: center;
   padding: 10px;
