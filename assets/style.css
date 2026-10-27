@@ -70,7 +70,7 @@ details summary{
 }
 
 .ch{
-  background: darkblue;
+  background: whitesmoke;
   border-radius: 10px;
   padding: 10px 15px;
   margin: 15px 0px;
@@ -78,7 +78,6 @@ details summary{
 
 .ch b{
   text-decoration: none;
-  color: white;
   display: block;
   padding: 5px 0;
 }
@@ -90,7 +89,6 @@ details summary{
 .ch div a{
   text-decoration: none;
   font-weight: bold;
-  color: white;
   display: block;
   word-spacing: 5px;
 }
